@@ -8,8 +8,10 @@
 <body>
     <h1>letra</h1>
     <?php   
-        echo 'No se si hice bien, pero llame';
-        echo 'No me gusto lo que escuche';
-        ?>
+        echo <<<END
+            En un mundo conectado,
+            donde cada segundo se envia millones de correos 
+            electronicos...
+    END;    ?>
 </body>
 </html>
